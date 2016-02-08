@@ -26,7 +26,7 @@ public class MSServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Welcome to Cloud Foundry Environment, This sample web application").append(request.getContextPath());
+		response.getWriter().append("Welcome to Cloud Foundry Environment, This is sample web application").append(request.getContextPath());
 	}
 
 	/**
